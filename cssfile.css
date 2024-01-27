@@ -1,0 +1,62 @@
+body {
+    background-color: rgba(0, 134, 72, 0.555);
+    font-family: Cursive, Fantasy;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 40px;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none; 
+    color: #00ffc8;
+}
+
+a:visited {
+    color: rgb(248, 248, 248); 
+    text-decoration: dotted;
+}
+
+a:hover {
+    color: #dbcd00; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    margin-top: auto;
+    text-align: center;
+    color: white;
+}
